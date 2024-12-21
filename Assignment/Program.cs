@@ -77,6 +77,17 @@
             //    }
             //}
             #endregion
+
+            #region Q9
+            //int Base = int.Parse(Console.ReadLine());
+            //int Exponent = int.Parse(Console.ReadLine());
+            //int result = 1;
+            //for(int i = 1; i <= Exponent; i++)
+            //{
+            //    result *= Base;
+            //}
+            //Console.WriteLine(result);
+            #endregion
         }
     }
 }
