@@ -230,7 +230,25 @@
             //{
             //    Console.WriteLine("The points are not on a single straight line");
             //}
-        #endregion
+            #endregion
+
+            #region Q18
+            //Console.WriteLine("Enter The Time That You Take To Complete A Task : ");
+            //double time = double.Parse(Console.ReadLine());
+
+            //if (time >= 2 && time <= 3)
+            //    Console.WriteLine("Higly efficient");
+            //else if (time >= 3 && time <= 4)
+            //    Console.WriteLine("Increase Your Spead");
+            //else if (time >= 4 && time <= 5)
+            //    Console.WriteLine("You Should get training to increase Your Spead");
+            //else if (time > 5)
+            //    Console.WriteLine("You should leave the company");
+            //else
+            //    Console.WriteLine("Invalid input");
+            #endregion
+
+
 
 
         }
