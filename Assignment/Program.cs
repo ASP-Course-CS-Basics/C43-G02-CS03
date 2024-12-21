@@ -277,8 +277,25 @@ namespace Assignment
             //Console.WriteLine(sum);
             #endregion
 
-            #region Q21 !!
+            #region Q21 
+            //int[] arr1 = { 1, 2, 3, 4, 5 };
+            //int[] arr2 = { 6, 7, 8, 9, 10 };
+            //int[] merge = new int[arr1.Length + arr2.Length];
 
+            //for (int i = 0; i < arr1.Length ; i++)
+            //{
+            //   merge[i] = arr1[i];
+            //}
+            //for (int i = 0; i < arr2.Length; i++)
+            //{
+            //    merge[arr1.Length+i] = arr2[i];
+            //}
+
+            //for (int i = 0; i < merge.Length; i++)
+            //{
+            //    Console.Write(merge[i]);
+            //    Console.Write(" ");
+            //}
             #endregion
 
             #region Q22
