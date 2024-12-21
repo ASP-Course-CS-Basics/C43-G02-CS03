@@ -121,6 +121,38 @@
             //    Console.WriteLine("Invalid month number");
             //}
             #endregion
+
+            #region Q12
+            //Console.WriteLine("Enter Two Numbers To Make Calculations On Them : ");
+            //double x = double.Parse(Console.ReadLine());
+            //double y = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the operator : + - * / %");
+            //char z = char.Parse(Console.ReadLine());
+
+            //switch (z)
+            //{
+            //    case '+':
+            //        Console.WriteLine($"{x} + {y} = {x + y}");
+            //        break;
+            //    case '-':
+            //        Console.WriteLine($"{x} - {y} = {x - y}");
+            //        break;
+            //    case '*':
+            //        Console.WriteLine($"{x} * {y} = {x * y}");
+            //        break;
+            //    case '/':
+            //        Console.WriteLine($"{x} / {y} = {x / y}");
+            //        break;
+            //    case '%':
+            //        Console.WriteLine($"{x} % {y} = {x % y}");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid Operator");
+            //        break;
+            //}
+            #endregion
+
+
         }
     }
 }
