@@ -102,6 +102,25 @@
             //float Per = Total/500*100;
             //Console.WriteLine($"Total Marks = {Total}\nAverage Marks = {Avg}\nPercentage = {Per}");
             #endregion
+
+            #region Q11
+            //int month = int.Parse(Console.ReadLine());
+            //if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+            //    Console.WriteLine($"Days in Month {month} is 31 Day");
+            //}
+            //else if(month == 4 || month == 6 || month == 9 || month == 11)
+            //{
+            //    Console.WriteLine($"Days in Month {month} is 30 Day");
+            //}
+            //else if (month == 2)
+            //{
+            //    Console.WriteLine($"Days in Month {month} is 28 Day");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid month number");
+            //}
+            #endregion
         }
     }
 }
