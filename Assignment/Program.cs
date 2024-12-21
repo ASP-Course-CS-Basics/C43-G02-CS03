@@ -277,6 +277,33 @@ namespace Assignment
             //Console.WriteLine(sum);
             #endregion
 
+            #region Q21 !!
+
+            #endregion
+
+            #region Q22
+            //int[] arr = { 1, 1, 2, 2, 2, 3, 4, 5, 5, 5, 5, 6 ,9,1};
+            //bool[] counted = new bool[arr.Length];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (counted[i])
+            //        continue;
+
+            //    int count = 0;
+            //    for (int j = 0; j < arr.Length; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            count++;
+            //            counted[j] = true;
+            //        }
+            //    }
+
+            //    Console.WriteLine($"{arr[i]} => {count}");
+            //}
+            #endregion
+
 
         }
     }
