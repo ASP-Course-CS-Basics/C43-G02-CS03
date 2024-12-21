@@ -364,7 +364,20 @@ namespace Assignment
             //Console.WriteLine($"Max = {max}\nSecondMax = {secondMax}");
             #endregion
 
+            #region Q25 !
 
+            #endregion
+
+            #region Q26
+            //string input = Console.ReadLine();
+
+            //string[] words = input.Split(' ');
+
+            //Array.Reverse(words);
+
+            //string result = string.Join(" ", words);
+            //Console.WriteLine(result);
+            #endregion
 
 
 
