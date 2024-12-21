@@ -321,6 +321,52 @@ namespace Assignment
             //}
             #endregion
 
+            #region Q23
+            //int[] arr = new int[10];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+            //int max = arr[0];
+            //int min = arr[0];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        max = arr[i];
+            //    }
+            //    if (arr[i] < min)
+            //    {
+            //        min = arr[i];
+            //    }
+            //}
+            //Console.WriteLine($"Max = {max}\nMin = {min}"); 
+            #endregion
+
+            #region Q24
+            //int[] arr = { 12,57,357,69,2,390,360,390 };
+            //int max = arr[0];
+            //int secondMax = arr[0];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        secondMax = max;
+            //        max = arr[i];
+            //    }
+            //    else if (arr[i] > secondMax && arr[i] < max)
+            //    {
+            //        secondMax = arr[i];
+            //    }
+            //}
+            //Console.WriteLine($"Max = {max}\nSecondMax = {secondMax}");
+            #endregion
+
+
+
+
 
         }
     }
