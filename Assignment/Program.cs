@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Headers;
+using System.Numerics;
 
 namespace Assignment
 {
@@ -377,6 +378,38 @@ namespace Assignment
 
             //string result = string.Join(" ", words);
             //Console.WriteLine(result);
+            #endregion
+
+            #region Q27
+            //Console.WriteLine("Enter athe Rows & Columns: ");
+            //int rows = int.Parse(Console.ReadLine());
+            //int columns = int.Parse(Console.ReadLine());
+
+            //int[,]arr1 = new int[rows, columns];
+            //int[,]arr2 = new int[rows, columns];
+
+            //Console.WriteLine($"Fill The first 2d Array of {rows} rows & {columns} columns : ");
+            //for(int i = 0; i < rows; i++)
+            //{
+            //    for(int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write($"Enter element in position ({i+1},{j+1}):");
+            //        arr1[i,j] = int.Parse(Console.ReadLine());
+            //        arr2[i, j] = arr1[i, j];
+            //    }
+            //}
+
+            //Console.WriteLine("Second Array : ");
+            //for(int i = 0; i < rows; i++)
+            //{
+            //    for(int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write(arr2[i,j]);
+            //        Console.Write(" ");
+            //    }
+            //    Console.Write($"\n");
+            //}
+
             #endregion
 
 
