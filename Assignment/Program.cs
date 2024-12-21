@@ -42,6 +42,12 @@
             //string res = num % 2 == 0 ? "Even" : "Odd";
             //Console.WriteLine(res);
             #endregion
+
+            #region Q5
+            //char x = char.Parse(Console.ReadLine());
+            //string res = (x == 'a' ||x=='A'|| x == 'e' ||x=='E'|| x == 'i' ||x== 'I' || x == 'o' ||x=='O'|| x == 'u'||x=='U') ? "Vowel" : "Consonant";
+            //Console.WriteLine(res);
+            #endregion
         }
     }
 }
