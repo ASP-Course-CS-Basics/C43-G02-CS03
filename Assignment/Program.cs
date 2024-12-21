@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Net.Http.Headers;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -264,7 +266,16 @@
             //}
             #endregion
 
-
+            #region Q20
+            //int[] arr = new int[5];
+            //int sum = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //    sum+= arr[i];
+            //}
+            //Console.WriteLine(sum);
+            #endregion
 
 
         }
