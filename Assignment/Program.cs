@@ -206,6 +206,32 @@
             //Console.WriteLine($"The Binary of {num} is {res}");
             #endregion
 
+            #region Q17
+            //Console.WriteLine("Enter x1,y1 : ");
+            //double x1 = double.Parse(Console.ReadLine());
+            //double y1 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter x2,y2: ");
+            //double x2 = double.Parse(Console.ReadLine());
+            //double y2 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter x3,y3: ");
+            //double x3 = double.Parse(Console.ReadLine());
+            //double y3 = double.Parse(Console.ReadLine());
+
+            //double slope1 = (y2 - y1) * (x3 - x2);
+            //double slope2 = (y3 - y2) * (x2 - x1);
+
+            //if (slope1 == slope2)
+            //{
+            //    Console.WriteLine("The points are lie on a single straight line");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The points are not on a single straight line");
+            //}
+        #endregion
+
 
         }
     }
