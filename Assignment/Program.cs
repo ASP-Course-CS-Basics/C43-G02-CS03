@@ -88,6 +88,20 @@
             //}
             //Console.WriteLine(result);
             #endregion
+
+            #region Q10
+            //Console.WriteLine("Enter Marks Of Five subjects : ");
+            //float a = float.Parse(Console.ReadLine());
+            //float b = float.Parse(Console.ReadLine());
+            //float c = float.Parse(Console.ReadLine());
+            //float d = float.Parse(Console.ReadLine());
+            //float e = float.Parse(Console.ReadLine());
+
+            //float Total = a + b + c + d + e;
+            //float Avg = Total/5;
+            //float Per = Total/500*100;
+            //Console.WriteLine($"Total Marks = {Total}\nAverage Marks = {Avg}\nPercentage = {Per}");
+            #endregion
         }
     }
 }
