@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        private static int n;
+
         static void Main(string[] args)
         {
             #region Q1
@@ -190,6 +192,18 @@
             //        Console.Write(" ");
             //    }
             //}
+            #endregion
+
+            #region Q16
+            //int num = int.Parse(Console.ReadLine());//25
+            //string res = "";
+            //int x = num;
+            //while (x > 0)
+            //{
+            //    res = (x % 2) + res;
+            //    x /= 2;
+            //}
+            //Console.WriteLine($"The Binary of {num} is {res}");
             #endregion
 
 
