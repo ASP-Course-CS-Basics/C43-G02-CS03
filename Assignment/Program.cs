@@ -36,6 +36,12 @@
 
             //Console.WriteLine($"Max Element = {max}\nMin Element = {min}");
             #endregion
+
+            #region Q4
+            //int num = int.Parse(Console.ReadLine());
+            //string res = num % 2 == 0 ? "Even" : "Odd";
+            //Console.WriteLine(res);
+            #endregion
         }
     }
 }
