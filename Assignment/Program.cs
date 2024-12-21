@@ -5,7 +5,6 @@ namespace Assignment
 {
     internal class Program
     {
-        private static int n;
 
         static void Main(string[] args)
         {
@@ -365,7 +364,7 @@ namespace Assignment
             //Console.WriteLine($"Max = {max}\nSecondMax = {secondMax}");
             #endregion
 
-            #region Q25 !
+            #region Q25 !!!
 
             #endregion
 
@@ -426,9 +425,6 @@ namespace Assignment
             //    Console.Write(arr[i] + " ");
             //}
             #endregion
-
-
-
         }
     }
 }
