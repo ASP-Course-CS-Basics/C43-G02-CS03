@@ -248,6 +248,22 @@
             //    Console.WriteLine("Invalid input");
             #endregion
 
+            #region Q19
+            //int n = int.Parse(Console.ReadLine());
+            //for(int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        if(i == j)
+            //            Console.Write(1);
+            //        else
+            //            Console.Write(0);
+
+            //    }
+            //    Console.Write($"\n");
+            //}
+            #endregion
+
 
 
 
