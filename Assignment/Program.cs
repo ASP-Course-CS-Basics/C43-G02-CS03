@@ -48,6 +48,15 @@
             //string res = (x == 'a' ||x=='A'|| x == 'e' ||x=='E'|| x == 'i' ||x== 'I' || x == 'o' ||x=='O'|| x == 'u'||x=='U') ? "Vowel" : "Consonant";
             //Console.WriteLine(res);
             #endregion
+
+            #region Q6
+            //int num = int.Parse(Console.ReadLine());
+            //for(int i=1; i <= num; i++)
+            //{
+            //    Console.Write(i);
+            //    Console.Write(" ");
+            //}
+            #endregion
         }
     }
 }
