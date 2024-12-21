@@ -412,6 +412,21 @@ namespace Assignment
 
             #endregion
 
+            #region Q28
+            //Console.WriteLine("Enter size of array : ");
+            //int size = int.Parse(Console.ReadLine());
+            //int[] arr = new int[size];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"fill element number {i+1} : ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+            //for(int i = arr.Length - 1; i >= 0; i--)
+            //{
+            //    Console.Write(arr[i] + " ");
+            //}
+            #endregion
+
 
 
         }
