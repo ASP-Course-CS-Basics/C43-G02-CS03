@@ -20,25 +20,25 @@
             //#endregion
             #endregion
 
-            #region Switch Case
-            Console.Write("Please enter month number exist in 1st Quarter of year: ");
-            int.TryParse(Console.ReadLine(), out int MonthNumber);
+            #region Switch Case [ Numeric Type - Equallity Comparison ]
+            //Console.Write("Please enter month number exist in 1st Quarter of year: ");
+            //int.TryParse(Console.ReadLine(), out int MonthNumber);
 
-            switch(MonthNumber)
-            {
-                case 1:
-                    Console.WriteLine("Hello Jan!");
-                    break;
-                case 2:
-                    Console.WriteLine("Hello Feb!");
-                    break;
-                case 3:
-                    Console.WriteLine("Hello March!");
-                    break;
-                default:
-                    Console.WriteLine("You enter monthNumber Not In 1st Quarte of year!");
-                    break;
-            }
+            //switch(MonthNumber)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Hello Jan!");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Hello Feb!");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Hello March!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("You enter monthNumber Not In 1st Quarte of year!");
+            //        break;
+            //}
             #endregion
 
             ///If Vs Switch
