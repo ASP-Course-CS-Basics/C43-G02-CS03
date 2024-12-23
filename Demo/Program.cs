@@ -149,6 +149,27 @@
             //}
             #endregion
 
+            #region Part 05 Switch with goto
+            //Console.Write("Please enter your Budget: ");
+            //int budget = int.Parse(Console.ReadLine());
+
+            //switch (budget)
+            //{
+            //    case 3000:
+            //        Console.WriteLine("Option 03");
+            //        //Console.WriteLine("Option 02");
+            //        //Console.WriteLine("Option 01");
+            //        goto case 2000;
+            //    case 2000:
+            //        Console.WriteLine("Option 02");
+            //        //Console.WriteLine("Option 01");
+            //        goto case 1000;
+            //    case 1000:
+            //        Console.WriteLine("Option 01");
+            //        break;
+            //}
+            #endregion
+
         }
     }
 }
