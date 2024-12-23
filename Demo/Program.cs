@@ -129,7 +129,25 @@
              */
             #endregion
 
+            #region Part 04 Switch in C# is Different
+            //// You Can Use Comparison Operators In Cases In Switch Case
+            //// But There Is In C# Onl, So It's Different.
+            //Console.Write("Enter Your Age: ");
+            //int.TryParse(Console.ReadLine(),out int Age);
 
+            //switch (Age)
+            //{
+            //    case > 22://You Can Use Comparison Operator
+            //        Console.WriteLine("You Are More Than 22");
+            //        break;
+            //    case < 22:
+            //        Console.WriteLine("You Are Less Than 22");
+            //        break;
+            //    default :
+            //        Console.WriteLine("You Are 22");
+            //        break;
+            //}
+            #endregion
 
         }
     }
