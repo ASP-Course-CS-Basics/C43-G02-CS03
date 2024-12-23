@@ -192,6 +192,70 @@
             //}
             #endregion
 
+            #region Part 07 Evolution of Switch in C# 8.0
+            #region Example 01 [Switch Expression ( Before C# 8.0  && After C# 8.0 )]
+            //string Option = Console.ReadLine()??"0";
+            //string message = string.Empty;//string.empty like "" => string message = "";
+
+            ///Before C# 8.0
+            ///switch (Option)
+            ///{
+            ///    case "1":
+            ///        message = "Use Option 1";
+            ///        break;
+            ///    case "2":
+            ///        message = "Use Option 2";
+            ///        break;
+            ///    case "3":
+            ///        message = "Use Option 3";
+            ///        break;
+            ///    default:
+            ///        message = "Unsupported Option";
+            ///        break;
+            ///}
+            ///Console.WriteLine(message);
+
+            ///After C# 8.0
+            ///message = Option switch
+            ///{
+            ///    "1" => "Use Option 1",
+            ///    "2" => "Use Option 2",
+            ///    "3" => "Use Option 3",
+            ///     _  => "Unsupported Option"
+            ///};
+            ///Console.WriteLine(message);
+
+            #endregion
+
+            #region Example 02 [Switch Syntax suger when Switch on object ( Before C# 8.0  && After C# 8.0 )]
+            //Person Human = new Person() { Id = 100, Name = "Eslam Elsaadany", Age = 22 };
+            //Person Human2  = new Person() { Id = 100,Name = "Ahmed Ashraf",Age = 24 };
+            ///Before C# 8.0
+            ///
+            ///switch (Human)
+            ///{
+            ///    case Person when Human.Id == 100 && Human.Name == "Eslam Elsaadany"://Tell Compiler that this Human is Of Type Person, and put multi Conditions.
+            ///        Console.WriteLine($"Your Age is : {Human.Age}");
+            ///        break;
+            ///    case Person when Human.Age == 22:
+            ///        Console.WriteLine($"Hello {Human.Name}, Your Id = {Human.Id}");
+            ///        break;
+            ///} 
+            
+            ///After C# 8.0
+            ///
+            ///switch (Human)
+            ///{
+            ///    case { Id: 100, Age: > 22 }:
+            ///        Console.WriteLine($"Hello {Human.Name}, Your Age is {Human.Age}");
+            ///        break;
+            ///}
+            
+            #endregion
+
+
+            #endregion
+
         }
     }
 }
