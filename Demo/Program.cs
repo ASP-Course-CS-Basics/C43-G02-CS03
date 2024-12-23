@@ -170,6 +170,28 @@
             //}
             #endregion
 
+            #region Part 06 Evolution of Switch in C# 7.0 (Continued)
+            //object Input;
+            ///*1- */Input = 5;//Boxing
+            ///*2- */Input = 10.5;//double
+            ///*3- */Input = new Person() { Id = 200,Name = "Eslam Elsaadany" };//Reference Input in Stack which is of object datatype refer to new object in heap of Person Type(Class Reference Type).
+            //switch (Input)
+            //{
+            //    /*1- */case int localInput when localInput>=5 && localInput<20://Unboxing
+            //        Console.WriteLine("int Input");
+            //        break;
+            //    /*2- */case double localInput:
+            //        Console.WriteLine("double Input");
+            //        break;
+            //    /*3- */case Person person when person.Id == 200:
+            //        Console.WriteLine($"Person Name : {person.Name}");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Unknown Input");
+            //        break;
+            //}
+            #endregion
+
         }
     }
 }
