@@ -241,7 +241,7 @@
             ///        Console.WriteLine($"Hello {Human.Name}, Your Id = {Human.Id}");
             ///        break;
             ///} 
-            
+
             ///After C# 8.0
             ///
             ///switch (Human)
@@ -250,10 +250,60 @@
             ///        Console.WriteLine($"Hello {Human.Name}, Your Age is {Human.Age}");
             ///        break;
             ///}
-            
+
             #endregion
 
 
+            #endregion
+
+            #region Part 08 Evolution of Switch in C# 9.0
+            #region Make Conditioning on variable of Type Reference Type Like Class(Person) Before C# 9.0
+            //// You Need First To Make Reference Of Type Object And Then Let It To Refer To New Object Of Type Class (Person).
+            ////And in [Case] ,tell the compiler to deal with this reference as Person Class Type and give alias name foe reference.
+            //object human = new Person() { Id = 100, Name = "Eslam Elsaadany", Age = 22 };
+
+            //switch (human)
+            //{
+            //    case Person person when person.Id == 100 && person.Name == "Eslam Elsaadany":
+            //        Console.WriteLine($"Hello Eslam, Your Age Is {person.Age}");
+            //        break;
+            //}
+            #endregion
+
+            #region Make Conditioning on variable of Type Reference Type Like Class(Person) After C# 9.0
+            ////You Can Make Conditioning On Variable Of Type Person Direct
+            //Person human = new Person() { Id = 100,Name = "Eslam Elsaadany",Age = 24};
+
+            //switch (human)
+            //{
+            //    //Before Syntax Suger of C# 9.0
+            //    case Person when human.Id == 100 && human.Name == "Eslam Elsaadany":
+            //        Console.WriteLine($"Hello Eslam, Your Age is {human.Age}");
+            //        break;
+            //    //After Syntax Suger Of C# 9.0
+            //    case { Id: 100, Name: "Eslam Elsaadany", Age: > 20 and < 25 }:
+            //        Console.WriteLine($"Hello Eslam, Your Age is {human.Age} And You Are old");
+            //        break;
+            //}
+            #endregion
+
+            #region Using Switch Expression
+            ///*1- */Person human = new Person() { Id = 100, Name = "Eslam Elsaadany", Age = 22 };
+            ///*2- */ human = new Person() { Id = 100, Name = "Eslam Elsaadany", Age = 30 };
+            ///*3- */ human = new Person() { Id = 100, Name = "Eslam Elsaadany", Age = 36 };
+            //string message = "";
+
+            //message = human switch
+            //{
+            //    { Id: 100, Name: "Eslam Elsaadany", Age: > 20 and < 25 } => $"Hello {human.Name}, Your Age is {human.Age}, And You Are Old",
+            //    { Age:30} => "Hello Anonymous, Your Age is 30",
+            //    _ => "Unknown Person"
+            //};
+
+            ///*1- */Console.WriteLine(message);//Hello Eslam Elsaadany, Your Age is 22, And You Are Old
+            ///*2- */Console.WriteLine(message);//Hello Anonymous, Your Age is 30
+            ///*3- */Console.WriteLine(message);//Unknown Person
+            #endregion
             #endregion
 
         }
