@@ -48,7 +48,7 @@
             /// * */
             #endregion
 
-            #region Part 02 Switch [Numeric Datatypes (Comparsion Operators)]
+            #region Part 02 If & Switch [Numeric Datatypes (Comparsion Operators)]
             #region Using ( If - Else )
             //Console.Write("Enter Your Age : ");
             //int.TryParse(Console.ReadLine(), out int Age);
@@ -79,6 +79,57 @@
             //}
             #endregion
             #endregion
+
+            #region Part 03 Conditional Statments - If, Switch [String Datatype]
+            #region Using If - Else
+            //Console.Write("Please enter your name: ");
+            //string Name = Console.ReadLine() ?? "No Name";
+
+            //if (Name == "Eslam")
+            //    Console.WriteLine("Hello Eslam!");
+            //else if (Name == "Ahmed")
+            //    Console.WriteLine("Hello Ahmed!");
+            //else if (Name == "Mohamed")
+            //    Console.WriteLine("Hello Mohamed!");
+            //else if (Name == "Hany")
+            //    Console.WriteLine("Hello Hany!");
+            //else if (Name == "Sama")
+            //    Console.WriteLine("Hello Sama!"); 
+            #endregion
+
+            #region Using Switch - Case
+            //Console.Write("Please enter your name: ");
+            //string Name = Console.ReadLine() ?? "No Name";
+
+            //switch(Name)
+            //{
+            //    case "Eslam":
+            //        Console.WriteLine("Hello Eslam!");
+            //        break;
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello Ahmed!");
+            //        break;
+            //    case "Mohamed":
+            //        Console.WriteLine("Hello Mohamed!");
+            //        break;
+            //    case "Hany":
+            //        Console.WriteLine("Hello Hany!");
+            //        break;
+            //    case "Sama":
+            //        Console.WriteLine("Hello Sama!");
+            //        break;
+            //}
+            #endregion
+
+            /*
+              * 1- When Switching On Variable Of Type Reference Type( e.g -> String ), And Cases Are Less Than Or Equal Five ( Cases <= 5 ),
+              * Compiler Not Do Effort ( Cost ) For Generating Jumb Table, It's Just Convert Switch - Cases Into If - Else Chains.
+              * 2- If Cases Are More Than  Five Cases, Compiler Will Do Effort( Cost ), And Generate Jumb Table For Switch Cases,
+              * Because Effort Of Generating Jumb Table Is Less Than Find Value at O(n) when Converting To If - Else Chains.
+             */
+            #endregion
+
+
 
         }
     }
