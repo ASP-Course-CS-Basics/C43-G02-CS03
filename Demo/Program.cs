@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            /*
+             *        - Control Statements - 
+             * 1- Conditional Statements ( If Else - Switch Case)
+             * 2- Loop Statements ( For - Foreach - While - do While )
+             */
             #region Part 01 Conditional Statments - If, Switch [Numeric Datatypes]
             #region If  else if  else
             //Console.Write("Please enter month number exist in 1st Quarter of year: ");
@@ -359,6 +364,28 @@
             //foreach(int num in numbers)
             //{
             //    Console.WriteLine(num);
+            //}
+            #endregion
+            #endregion
+
+            #region Part 11 Loop Statements - Do While, While
+            #region do ..... While
+            //int num;
+            //bool Parsed;
+            //do
+            //{
+            //    Console.Write("enter even  number: ");
+            //    Parsed = int.TryParse(Console.ReadLine(), out num);
+            //} while (Parsed == false || num % 2 != 0);
+
+            #endregion
+
+            #region While
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
             //}
             #endregion
             #endregion
