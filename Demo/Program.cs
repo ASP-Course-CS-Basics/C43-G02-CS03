@@ -331,6 +331,38 @@
             #endregion
             #endregion
 
+            #region Part 10 Loop Statements - For, Foreach
+            #region For Loop
+            //// I need To Print Collection Elements Like Array And I Know The Number Of Elements In Array, So Use For Loop
+            //int[] Numbers01 = new int[] { 1, 2, 3, 4, 5 };
+            //int[] Numbers02 = { 1, 2, 3, 4, 5 };
+            ////Index ->          0  1  2  3  4     Size(Length) = 5 Elements
+            //int[] Numbers03 = [ 1, 2, 3, 4, 5 ];
+            #region Traditional Approach
+            //Console.WriteLine(Numbers03[0]);//1
+            //Console.WriteLine(Numbers03[1]);//2
+            //Console.WriteLine(Numbers03[2]);//3
+            //Console.WriteLine(Numbers03[3]);//4
+            //Console.WriteLine(Numbers03[4]);//5
+            #endregion
+
+            #region Looping Approach [For Loop]
+            //for(int i = 0; i < Numbers03.Length; i++)
+            //{
+            //    Console.WriteLine(Numbers03[i]);
+            //}
+            #endregion
+            #endregion
+
+            #region Foreach Loop
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+            //foreach(int num in numbers)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            #endregion
+            #endregion
+
         }
     }
 }
