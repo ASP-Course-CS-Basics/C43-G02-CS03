@@ -5,10 +5,11 @@
         static void Main(string[] args)
         {
             /*
-             *        - Control Statements - 
+             *          - Control Statements - 
              * 1- Conditional Statements ( If Else - Switch Case)
              * 2- Loop Statements ( For - Foreach - While - do While )
              */
+
             #region Part 01 Conditional Statments - If, Switch [Numeric Datatypes]
             #region If  else if  else
             //Console.Write("Please enter month number exist in 1st Quarter of year: ");
@@ -389,6 +390,61 @@
             //}
             #endregion
             #endregion
+
+            #region Part 12 String
+
+            #region Example 01
+            //string Name01 = new string("Ahmed");//Allocate new object of type string in heap, with initialized value "Ahmed"
+            //Name01 = new string("Eslam");//Allocate new object of type string in heap, with initialized value "Eslam"
+
+            //string Name02 = new string("Eslam");//Allocate new object of type string in heap, with initialized value "Eslam"
+            //string Name03 = new string("Eslam");//Not Allocate new object in heap, CLR check first if there is previous object initialized with this value, if found it , it return the addres of this object to the reference (Name02) in stack
+            ////So the 2 References in stack (Name02 - Name03) Refer to the same object in heap of value "Eslam"
+
+            //Console.WriteLine($"Name02 HashCode=> {Name02.GetHashCode()}");//Name02 HashCode=>2011592142
+            //Console.WriteLine($"Name03 HashCode=> {Name03.GetHashCode()}");//Name03 HashCode=>2011592142 
+            #endregion
+
+            #region Example 02
+            //string Name01 = "Ahmed";
+            //string Name02 = "Mahmoud";
+            //Console.WriteLine("--------- Before Name02 = Name01 ------------");
+            //Console.WriteLine($"Name 01 => {Name01}");//Ahmed
+            //Console.WriteLine($"Hash Code => {Name01.GetHashCode()}");//1471634250
+            //Console.WriteLine("*********************************");
+            //Console.WriteLine($"Name 02 => {Name02}");//Mahmoud
+            //Console.WriteLine($"Hash Code => {Name02.GetHashCode()}");//1652095188
+            //Name02 = Name01;
+            //Console.WriteLine("--------- After Name02 = Name01 ------------");
+            //Console.WriteLine($"Name 01 => {Name01}");//Ahmed
+            //Console.WriteLine($"Hash Code => {Name01.GetHashCode()}");//-2012901293
+            //Console.WriteLine("*********************************");
+            //Console.WriteLine($"Name 02 => {Name02}");//Ahmed
+            //Console.WriteLine($"Hash Code => {Name02.GetHashCode()}");//-2012901293
+
+            //Console.WriteLine("\n----------- Before Name02 = \"Yassmin\"---------");
+            //Console.WriteLine($"Name 01 => {Name01}");//Ahmed
+            //Console.WriteLine($"Name 02 => {Name02}");//Ahmed
+            //Name02 = "Yassmin";
+            //Console.WriteLine("----------- After Name02 = \"Yassmin\"---------");
+            //Console.WriteLine($"Name 01 => {Name01}");//Ahmed
+            //Console.WriteLine($"Name 02 => {Name02}");//Yassmin
+            #endregion
+
+            #region Example 03
+            //string message = "Hello";
+            //Console.Write($"Message => {message}  : HashCode => {message.GetHashCode()}\n");//251408458
+            //Console.Write("Please enter your Name: ");
+            //string Name = Console.ReadLine()!;
+            //message = $"{message} {Name}";
+
+            //Console.WriteLine(message);
+
+            //Console.Write($"Message => {message}  : HashCode => {message.GetHashCode()}");//-1475770673
+            #endregion
+            #endregion
+
+
 
         }
     }
