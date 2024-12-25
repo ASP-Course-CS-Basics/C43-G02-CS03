@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Text;
+
+namespace Demo
 {
     internal class Program
     {
@@ -443,6 +445,20 @@
             //Console.Write($"Message => {message}  : HashCode => {message.GetHashCode()}");//-1475770673
             #endregion
             #endregion
+
+            #region Part 13 StringBuilder
+            //StringBuilder messageBuilder = new StringBuilder("Hello");
+            //Console.WriteLine($"message => {messageBuilder}");//Hello
+            //Console.WriteLine($"HashCode => {messageBuilder.GetHashCode()}");//54267293
+
+            //Console.Write("Enter Your Name: ");
+            //string Name = Console.ReadLine()!;
+            //messageBuilder.Append($"\t {Name}");
+
+            //Console.WriteLine($"message => {messageBuilder}");//Hello       Eslam
+            //Console.WriteLine($"HashCode => {messageBuilder.GetHashCode()}");//54267293
+            #endregion
+
 
 
 
