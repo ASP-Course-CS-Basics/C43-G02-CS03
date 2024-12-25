@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Net.Security;
+using System.Text;
 
 namespace Demo
 {
@@ -459,9 +460,92 @@ namespace Demo
             //Console.WriteLine($"HashCode => {messageBuilder.GetHashCode()}");//54267293
             #endregion
 
+            #region Part 14 StringBuilder Methods
+            #region Append & AppendLine
+            //StringBuilder messageBuilder = new StringBuilder("Hi");
+            //messageBuilder.Append(" Eslam");//Append without new line
+            //messageBuilder.AppendLine(" Ashraf");//Append and new line
+
+            //Console.WriteLine(messageBuilder);//Hi Eslam Ashraf
+
+            //messageBuilder.Append("Abdelazem");
+            //messageBuilder.Append(" Elsaadany");
+
+            //Console.WriteLine(messageBuilder);//Hi Eslam Ashraf
+            //                                  //Abdelazem Elsaadany    
+            #endregion
+
+            #region AppendFormat
+            //StringBuilder msgBuilder = new StringBuilder();
+            //msgBuilder.AppendFormat("{0} + {1} = {2}", 5, 8, 13);
+            //Console.WriteLine(msgBuilder.ToString());//5 + 8 = 13
+            #endregion
+
+            #region AppendJoin
+            //StringBuilder messageBuilder = new StringBuilder();
+            //messageBuilder.AppendJoin("-", "Eslam", "Ashraf", "Elsaadany");
+            //Console.WriteLine(messageBuilder.ToString());//Eslam-Ashraf-Elsaadany
+            #endregion
+
+            #region CopyTo
+            //StringBuilder msgBuilder = new StringBuilder("Eslam");
+            //char[] chars = new char[10];
+            //msgBuilder.CopyTo(0/*start index in source(msgBuilder)*/, chars/*Destination*/, 0/*Start index in destination*/, 5/*Num of Copy elements from source*/);
+            ////Default value of char(value type) => '\0' which is invisible when printing
+            //foreach (char c in chars)
+            //    Console.WriteLine(c == '\0' ? "Null" : c.ToString());// E
+            //                                                         // s             
+            //                                                         // l
+            //                                                         // a
+            //                                                         // m
+            //                                                         // Null
+            //                                                         // Null
+            //                                                         // Null
+            //                                                         // Null
+            //                                                         // Null
+            #endregion
+
+            #region Insert
+            ////Insert in Specific Index
+            //StringBuilder msgBuilder = new StringBuilder("Eslam Elsaadany");
+            //msgBuilder.Insert(0, "Hello ");
+            //Console.WriteLine(msgBuilder.ToString());//Hello Eslam Elsaadany.
+            #endregion
+
+            #region Remove
+            ////                                   index => 012345678910                                   
+            //StringBuilder msgBuilder = new StringBuilder("Hello Eslam");//11 Element
+            //msgBuilder.Remove(0, 6/*Hello */);
+
+            //Console.WriteLine(msgBuilder.ToString());//Eslam
+            #endregion
+
+            #region Replace
+            //StringBuilder msgBuilder = new StringBuilder("eslam eslam eslam");
+            //msgBuilder.Replace("e", "i");
+
+            //Console.WriteLine(msgBuilder.ToString());//islam islam islam
+            #endregion
+
+            #region Clear
+            //StringBuilder msgBuilder01 = new StringBuilder("eslam eslam eslam");//17 element
+            //msgBuilder01.Clear();
+
+            //Console.WriteLine($"msgBuilder => {msgBuilder01.ToString()}");// empty string => No Elements [lenght = 0]
+            //Console.WriteLine($"Capacit => {msgBuilder01.Capacity}");//17 (this msgBuilder can contain up to 17 char, but for now it's empty)
+            //Console.WriteLine($"Length => {msgBuilder01.Length}");//0(No elements in stringBuilder LinkedList)
+            //Console.WriteLine($"Hash code => {msgBuilder01.GetHashCode()}");//54267293
+
+            //msgBuilder01.Append("eslam eslam eslam eslam");//23 element (You excceed the previous capacity, so StringBuilder automatically double the previous capacity of current object(17 * 2 = 34) not make new object )
+
+            //Console.WriteLine($"msgBuilder => {msgBuilder01.ToString()}");//eslam eslam eslam eslam
+            //Console.WriteLine($"Capacit => {msgBuilder01.Capacity}");// double the previous capacity(17 element) because content(23 element) exceed the previous capacity (17*2 = 34 element)
+            //Console.WriteLine($"Length => {msgBuilder01.Length}");//23
+            //Console.WriteLine($"Hash code => {msgBuilder01.GetHashCode()}");//54267293
 
 
-
+            #endregion
+            #endregion
         }
     }
 }
